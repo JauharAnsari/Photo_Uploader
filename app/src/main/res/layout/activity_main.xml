@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#31213a"
+    tools:context=".MainActivity"
+
+    android:orientation="vertical">
+
+    <ImageView
+
+        android:id="@+id/selectImage"
+        android:layout_width="350dp"
+        android:src="@drawable/click_me"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"></ImageView>
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Upload Image"
+        android:textSize="26dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+      android:background="@drawable/button_shape"></Button>
+
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/buttonTwo"
+        android:textSize="26dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape"
+        android:text="Show All Image"
+        android:layout_marginTop="20dp"></Button>
+
+
+
+
+</LinearLayout>
